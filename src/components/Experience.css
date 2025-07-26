@@ -1,0 +1,49 @@
+.experience {
+  background-color: #011015;
+  padding: 3rem 1rem;
+  text-align: center;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.experience-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+}
+
+.experience-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.experience-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background-color: rgba(0, 255, 200, 0.05);
+  border: 1px solid #00ffc3;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+}
+
+.experience-icon {
+  background-color: #013336;
+  padding: 0.7rem;
+  border-radius: 10px;
+  font-size: 1.8rem;
+}
+
+.experience-text {
+  font-size: 1rem;
+  text-align: left;
+}

@@ -1,0 +1,81 @@
+.video-section {
+  background-color: #011015;
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.video-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.video-subtitle {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #00ffc3;
+  margin-top: 0.5rem;
+}
+
+.video-location {
+  margin: 1rem 0 2.5rem;
+  color: #ccc;
+  font-size: 1rem;
+}
+
+.video-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .video-content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.video-left {
+  flex: 1;
+}
+
+.video-img {
+  width: 100%;
+  max-width: 550px;
+  border-radius: 15px;
+}
+
+.video-right {
+  flex: 1;
+  text-align: left;
+  padding: 0 1rem;
+  margin-top: 1.5rem;
+}
+
+.video-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.video-highlight-box {
+  /* background-color: rgba(255, 255, 255, 0.05); */
+  /* border: 1px solid #00ffc3; */
+  padding-right: 2rem;
+  border-radius: 12px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: white;
+  margin-top: 3rem;
+}
+
+.video-highlight-box .highlight {
+  color: #00ffc3;
+  font-style: italic;
+}

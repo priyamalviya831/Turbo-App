@@ -1,0 +1,62 @@
+.media-section {
+  background-color: #011015;
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.media-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.highlight {
+  color: #00ffc3;
+  font-style: italic;
+}
+
+.media-subtitle {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 2rem;
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.media-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: rgba(0, 255, 200, 0.05);
+  border: 1px solid #00ffc3;
+  padding: 1.5rem;
+  border-radius: 12px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.media-card:hover {
+  transform: translateY(-5px);
+}
+
+.media-icon {
+  background-color: #013336;
+  padding: 0.7rem;
+  border-radius: 10px;
+  font-size: 1.8rem;
+}
+
+.media-text {
+  font-size: 1rem;
+  text-align: left;
+}
