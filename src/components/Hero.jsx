@@ -142,6 +142,7 @@
 
 // export default Hero;
 import homebackground from "../assets/homebackground.png";
+import Logo from "../assets/logo.png";
 import React from 'react';
 
 const Hero = () => {
@@ -151,11 +152,12 @@ const Hero = () => {
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
+    height: '100vh', // optional but helpful
   }}>
       {/* Navbar */}
-      <div className="flex justify-between items-center mb-12">
+      <div className="flex justify-between items-center mb-12 max-h-20">
         <div className="text-3xl font-bold text-white">
-          <span className="text-[#00FFD1]">TURB</span>O <span className="text-sm font-light">ADS</span>
+        <img src={Logo} alt="Turbo Logo" className="w-40 h-40 object-contain" />
         </div>
         <div className="hidden md:flex gap-8 items-center text-white font-medium">
           <a href="#media" className="hover:text-[#00FFD1] transition">Media Package</a>

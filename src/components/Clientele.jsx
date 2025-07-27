@@ -1,16 +1,19 @@
 import React from "react";
 import "./Clientele.css";
+import hdfcImage from "../assets/hdfcImage.png";
+import  starImage from "../assets/starImage.png";
+
 
 // Use imported images if available or use emoji/svg/icon fonts
 const clients = [
-  // {
-  //   name: "HDFC BANK",
-  //   img: "https://1000logos.net/wp-content/uploads/2021/05/HDFC-Bank-logo.png", // Replace with local path if needed
-  // },
+  {
+    name: "HDFC BANK",
+    img: hdfcImage, // Replace with local path if needed
+  },
   {
     name: "STAR HEALTH",
-    // img: "https://companieslogo.com/img/orig/STARHEALTH.NS-9e672cdc.png?t=1661329056", // Replace with local path
-    icon: "🏫",
+    img: starImage, // Replace with local path
+    // icon: "🏫",
   },
   {
     name: "REAL ESTATE",
