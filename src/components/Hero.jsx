@@ -147,7 +147,7 @@ import React from 'react';
 
 const Hero = () => {
     return (
-
+<>
 <style>{`
     * {
       outline: 1px solid red !important;
@@ -220,6 +220,7 @@ const Hero = () => {
       </a>
     </div>
   </div>
+    </>
 );
 };
 
