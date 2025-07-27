@@ -151,7 +151,7 @@ const Hero = () => {
     className="relative bg-gradient-to-bl from-black via-gray-900 to-black text-white bg-cover bg-center bg-no-repeat overflow-hidden min-h-screen"
     style={{
       backgroundImage: `url(${homebackground})`,
-      minHeight: '100vh',
+      minHeight: '100dvh',
     }}
   >
         
