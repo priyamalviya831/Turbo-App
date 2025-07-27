@@ -47,3 +47,9 @@
   font-size: 1rem;
   text-align: left;
 }
+
+@media (max-width: 500px) {
+  .experience-cards {
+    grid-template-columns: repeat(1, 1fr); /* 3 equal columns */
+  }
+}
