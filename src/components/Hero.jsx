@@ -149,7 +149,8 @@ const Hero = () => {
     return (
   <div
     className="relative bg-gradient-to-bl from-black via-gray-900 to-black text-white  bg-cover bg-center bg-no-repeat overflow-hidden min-h-[100dvh]"
-    style={{ backgroundImage: `url(${homebackground})` }}
+    style={{ backgroundImage: `url(${homebackground}), outline: 1px solid red !important
+` }}
   >
     {/* CONTENT WRAPPER for responsive centering */}
     <div className="max-w-7xl mx-auto px-4 md:px-12 py-14">
