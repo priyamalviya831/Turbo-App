@@ -148,8 +148,7 @@ import React from 'react';
 const Hero = () => {
     return (
   <div
-    className="relative bg-hero-bg from-black via-gray-900 to-black text-white bg-cover bg-center bg-no-repeat overflow-x-hidden min-h-[100dvh]"
-` }}
+    className="relative bg-hero-bg from-black via-gray-900 to-black text-white bg-cover bg-center bg-no-repeat overflow-x-hidden min-h-[100dvh]"}}
   >
     {/* CONTENT WRAPPER for responsive centering */}
     <div className="max-w-7xl mx-auto px-4 md:px-12 py-14">
