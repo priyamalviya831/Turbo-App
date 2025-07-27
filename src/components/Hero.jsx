@@ -152,7 +152,6 @@ const Hero = () => {
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
-    height: '100vh', // optional but helpful
   }}>
       {/* Navbar */}
       <div className="flex justify-between items-center mb-12 max-h-20">
