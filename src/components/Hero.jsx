@@ -147,9 +147,16 @@ import React from 'react';
 
 const Hero = () => {
     return (
+
+<style>{`
+    * {
+      outline: 1px solid red !important;
+    }
+  `}</style>
+        
   <div
     className="relative bg-gradient-to-bl from-black via-gray-900 to-black text-white  bg-cover bg-center bg-no-repeat overflow-hidden min-h-[100dvh]"
-    style={{ backgroundImage: `url(${homebackground}), outline: 1px solid red !important
+    style={{ backgroundImage: `url(${homebackground})
 ` }}
   >
     {/* CONTENT WRAPPER for responsive centering */}
