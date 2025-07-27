@@ -148,7 +148,7 @@ import React from 'react';
 const Hero = () => {
     return (
   <div
-    className="relative bg-gradient-to-bl from-black via-gray-900 to-black text-white bg-cover bg-center bg-no-repeat overflow-hidden min-h-[100dvh]"
+    className="relative bg-gradient-to-bl from-black via-gray-900 to-black text-white bg-cover bg-center bg-no-repeat overflow-hidden max-h-[100dvh]"
     style={{
       backgroundImage: `url(${homebackground})`
     }}
