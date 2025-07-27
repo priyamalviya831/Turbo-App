@@ -146,18 +146,24 @@ import Logo from "../assets/logo.png";
 import React from 'react';
 
 const Hero = () => {
-  return (
-    <div className="relative bg-gradient-to-bl from-black via-gray-900 to-black text-white overflow-hidden min-h-screen px-4 md:px-12 py-14"  style={{
-    backgroundImage: `url(${homebackground})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-    maxHeight: '100vh',
-  }}>
+    return (
+  <div
+    className="relative bg-gradient-to-bl from-black via-gray-900 to-black text-white overflow-hidden min-h-screen"
+    style={{
+      backgroundImage: `url(${homebackground})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+      minHeight: '100vh',
+    }}
+  >
+    {/* CONTENT WRAPPER for responsive centering */}
+    <div className="max-w-7xl mx-auto px-4 md:px-12 py-14">
+      
       {/* Navbar */}
-      <div className="flex justify-between items-center mb-12 max-h-20">
+      <div className="flex justify-between items-center mb-12">
         <div className="text-3xl font-bold text-white">
-        <img src={Logo} alt="Turbo Logo" className="w-40 h-40 object-contain" />
+          <img src={Logo} alt="Turbo Logo" className="w-28 md:w-40 h-auto object-contain" />
         </div>
         <div className="hidden md:flex gap-8 items-center text-white font-medium">
           <a href="#media" className="hover:text-[#00FFD1] transition">Media Package</a>
@@ -201,17 +207,18 @@ const Hero = () => {
           <div className="border border-[#00FFD1] backdrop-blur-md rounded-full px-6 py-3 text-center">Prime footfall visibility</div>
         </div>
       </div>
-
-      {/* Scroll To Top */}
-      <div className="fixed bottom-6 right-6">
-        <a href="#">
-          <button className="bg-[#00FFD1] text-black p-3 rounded-full shadow-lg hover:scale-110 transition">
-            ↑
-          </button>
-        </a>
-      </div>
     </div>
-  );
+
+    {/* Scroll To Top */}
+    <div className="fixed bottom-6 right-6">
+      <a href="#">
+        <button className="bg-[#00FFD1] text-black p-3 rounded-full shadow-lg hover:scale-110 transition">
+          ↑
+        </button>
+      </a>
+    </div>
+  </div>
+);
 };
 
-export default Hero;
+export default Hero;  
