@@ -17,6 +17,9 @@ theme: {
     fontFamily: {
       urbanist: ['Urbanist', 'sans-serif'],
     },
+    backgroundImage: {
+        'hero-bg': "url('/src/assets/homebackground.png')", // Adjust path if needed
+    },
   },
 }
 }
