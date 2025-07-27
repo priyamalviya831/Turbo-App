@@ -155,9 +155,6 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
         style={{ backgroundImage: `url(${homebackground})` }}
       ></div>
-
-      {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-bl from-black via-gray-900 to-black opacity-80 z-10"></div>
       
     {/* CONTENT WRAPPER for responsive centering */}
     <div className="max-w-7xl mx-auto px-4 md:px-12 py-14">
