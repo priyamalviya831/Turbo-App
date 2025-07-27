@@ -147,16 +147,20 @@ import React from 'react';
 
 const Hero = () => {
     return (
-  <div
-    className="relative bg-gradient-to-bl from-black via-gray-900 to-black text-white overflow-hidden min-h-screen"
-    style={{
-      backgroundImage: `url(${homebackground})`,
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-      minHeight: '100vh',
-    }}
-  >
+  // <div
+  //   className="relative bg-gradient-to-bl from-black via-gray-900 to-black text-white overflow-hidden min-h-screen"
+  //   style={{
+  //     backgroundImage: `url(${homebackground})`,
+  //     backgroundSize: 'cover',
+  //     backgroundPosition: 'center',
+  //     backgroundRepeat: 'no-repeat',
+  //     minHeight: '100vh',
+  //   }}
+  // >
+<div
+  className="relative bg-cover bg-center bg-no-repeat text-white overflow-hidden min-h-screen"
+  style={{ backgroundImage: `url(${homebackground})` }}
+>
     {/* CONTENT WRAPPER for responsive centering */}
     <div className="max-w-7xl mx-auto px-4 md:px-12 py-14">
       
