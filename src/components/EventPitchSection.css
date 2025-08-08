@@ -123,3 +123,10 @@
   color: #00f7cc;
   font-size: 1.2rem;
 }
+
+.service-img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}

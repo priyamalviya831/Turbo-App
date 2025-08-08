@@ -144,6 +144,7 @@
 import homebackground from "../assets/homebackground.png";
 import Logo from "../assets/logo.png";
 import React from 'react';
+import contact from "../assets/Contact-Us.png"
 
 const Hero = () => {
     return (
@@ -164,7 +165,9 @@ const Hero = () => {
           <a href="#services" className="hover:text-[#00FFD1] transition">Our Services</a>
           <a href="#contact">
             <button className="bg-white text-black px-4 py-2 rounded-full flex items-center gap-2 shadow-lg hover:bg-gray-200 transition">
-              📞 Contact Us
+              {/* <img src="Contact"/> */}
+              <img src={contact} alt="Contact Icon" className="w-5 h-5" />
+               Contact Us
             </button>
           </a>
         </div>
@@ -211,7 +214,7 @@ const Hero = () => {
       </a>
     </div>
   </div>
- </div>
+//  </div>
 );
 };
 
