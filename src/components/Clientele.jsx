@@ -9,8 +9,8 @@ import institution from "../assets/INSTITUTIONS.png"
 // Use imported images if available or use emoji/svg/icon fonts
 const clients = [
   {
-    name: "HDFC BANK",
-    img: hdfcImage, // Replace with local path if needed
+    name:"",
+    // img: hdfcImage, // Replace with local path if needed
   },
   {
     name: "STAR HEALTH",
