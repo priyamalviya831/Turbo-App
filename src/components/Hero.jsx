@@ -188,8 +188,16 @@ const Hero = () => {
               TURBO ADS delivers high-frequency LED billboard advertising at strategic urban junctions — starting with our flagship screen at Vazhuthacaud Junction, Trivandrum.
             </p>
             <div className="flex gap-4 flex-wrap">
-              <button className="bg-[#00FFD1] text-black px-6 py-2 rounded-full hover:bg-[#00e5ba]">Book a Slot</button>
-              <button className="border border-[#00FFD1] text-[#00FFD1] px-6 py-2 rounded-full hover:bg-[#00FFD1] hover:text-black">
+              {/* <button className="bg-[#00FFD1] text-black px-6 py-2 rounded-full hover:bg-[#00e5ba]">Book a Slot</button> */}
+<button 
+  onClick={() => window.open("https://calendly.com/turbooads/30min", "_blank")} 
+  className="bg-[#00FFD1] text-black px-6 py-2 rounded-full hover:bg-[#00e5ba]"
+>
+  Book a Slot
+</button>
+              <button
+               onClick={() => window.open("https://calendly.com/turbooads/30min", "_blank")}  
+              className="border border-[#00FFD1] text-[#00FFD1] px-6 py-2 rounded-full hover:bg-[#00FFD1] hover:text-black">
                 Request a Quote
               </button>
             </div>
