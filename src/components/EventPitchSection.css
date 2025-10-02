@@ -37,14 +37,30 @@
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.3s ease;
-}
+  margin-left: 1.85rem;
 
+}
+/* media query */
+/* @media only screen and (min-width: 327px) {
+.primary-button{
+ margin-left: 0.4rem;
+}
+} */
 .primary-button {
   background-color: #00f7cc;
   color: black;
   border: none;
+ 
+
 }
 
+/* media query */
+/* @media only screen and (min-width: 327px)   
+{
+.outline-button{
+ margin-left: 0.4rem;
+}
+} */
 .outline-button {
   background: transparent;
   border: 1px solid #00f7cc;

@@ -1,18 +1,30 @@
-import React from 'react';
-import './EventPitchSection.css';
-import { FaPhoneAlt, FaEnvelope, FaRegFileAlt, FaVideo, FaMicrophoneAlt, FaPaintBrush, FaFilm } from 'react-icons/fa';
-import { MdOutlineVideoSettings } from 'react-icons/md';
-import script from "../assets/script.png"
-import direction from "../assets/direction.png"
-import voice from "../assets/voiceover.png"
-import graphic from "../assets/Graphics.png"
-import post from "../assets/Post.png"
+import React from "react";
+import "./EventPitchSection.css";
+import {
+  FaPhoneAlt,
+  FaEnvelope,
+  FaRegFileAlt,
+  FaVideo,
+  FaMicrophoneAlt,
+  FaPaintBrush,
+  FaFilm,
+} from "react-icons/fa";
+import { MdOutlineVideoSettings } from "react-icons/md";
+import script from "../assets/script.png";
+import direction from "../assets/direction.png";
+import voice from "../assets/voiceover.png";
+import graphic from "../assets/Graphics.png";
+import post from "../assets/Post.png";
 const EventPitchSection = () => {
   return (
     <div className="event-pitch-section">
       <h2 className="title">Event reels & pitch videos</h2>
-      <h3 className="subtitle"><em>For digital, OTT, events, and beyond.</em></h3>
-      <p className="description">You bring the vision — we make it unforgettable.</p>
+      <h3 className="subtitle">
+        <em>For digital, OTT, events, and beyond.</em>
+      </h3>
+      <p className="description">
+        You bring the vision — we make it unforgettable.
+      </p>
 
       <div className="button-group">
         <button className="primary-button">Start a Project</button>
@@ -29,7 +41,7 @@ const EventPitchSection = () => {
         </div>
         <div className="service-box">
           {/*  */}
-           <img src={direction} alt="Direction" className="service-img" />
+          <img src={direction} alt="Direction" className="service-img" />
           {/*  */}
           {/* <MdOutlineVideoSettings className="icon" /> */}
           <p>Direction</p>
@@ -42,7 +54,7 @@ const EventPitchSection = () => {
           <p>Voiceover</p>
         </div>
       </div>
-       <div className="services-grid">
+      <div className="services-grid">
         <div className="service-box">
           {/* <FaPaintBrush className="icon" /> */}
           {/*  */}
@@ -52,9 +64,9 @@ const EventPitchSection = () => {
         </div>
         <div className="service-box">
           {/* <FaFilm className="icon" /> */}
-{/*  */}
-<img src={post} alt="Post Production" className="service-img" />
-{/*  */}
+          {/*  */}
+          <img src={post} alt="Post Production" className="service-img" />
+          {/*  */}
           <p>Post Production</p>
         </div>
       </div>
@@ -81,11 +93,23 @@ const EventPitchSection = () => {
       </div>
 
       <div className="button-group">
-        <button className="primary-button ml-10">Book Ad Slot</button>
-        <button className="outline-button  ml-7" >Request Video talk</button>
+        <a
+          href="https://calendly.com/turbooads/30min"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          <button className=" primary-button ">Book Ad Slot</button>
+        </a>
+        <a
+          href="https://calendly.com/turbooads/30min"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          <button className=" outline-button  ">Request Video talk</button>
+        </a>
       </div>
-
-     
     </div>
   );
 };
