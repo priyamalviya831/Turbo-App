@@ -52,3 +52,7 @@ Thumbs.db
 # Temporary
 *.tmp
 *.swp
+
+
+node_modules/
+src/node_modules/
