@@ -43,7 +43,23 @@
   font-size: 1.8rem;
 }
 
+.experience-icon img {
+  width: 60px;   /* or any size you want */
+  height: auto;
+  object-fit: contain;
+}
+
 .experience-text {
   font-size: 1rem;
   text-align: left;
+}
+
+@media (max-width: 500px) {
+  .experience-cards {
+    grid-template-columns: repeat(1, 1fr); /* 3 equal columns */
+  }
+}
+.experience-name {
+  font-weight: bold;
+  font-size: 1rem;
 }

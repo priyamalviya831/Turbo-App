@@ -2,30 +2,35 @@ import React from "react";
 import "./Clientele.css";
 import hdfcImage from "../assets/hdfcImage.png";
 import  starImage from "../assets/starImage.png";
-
+import realstate from "../assets/realstateimg.png"
+import retail from "../assets/Retail.png"
+import institution from "../assets/INSTITUTIONS.png"
 
 // Use imported images if available or use emoji/svg/icon fonts
 const clients = [
-  {
-    name: "HDFC BANK",
-    img: hdfcImage, // Replace with local path if needed
-  },
-  {
-    name: "STAR HEALTH",
-    img: starImage, // Replace with local path
-    // icon: "🏫",
-  },
+  // {
+  //   name:"",
+    // img: hdfcImage, // Replace with local path if needed
+  // },
+  // {
+  //   name: "STAR HEALTH",
+  //   img: starImage, // Replace with local path
+  //   // icon: "🏫",
+  // },
   {
     name: "REAL ESTATE",
-    icon: "🏘️",
+    // icon: "🏘️",
+    img:realstate,
   },
   {
     name: "RETAIL",
-    icon: "🏬",
+    // icon: "🏬",
+    img:retail,
   },
   {
     name: "INSTITUTIONS",
-    icon: "🏫",
+    // icon: "🏫",
+    img:institution,
   },
 ];
 

@@ -69,9 +69,13 @@ import EventPitchSection from './components/EventPitchSection'
 
 
 
+
 export default function App() {
   return (
-    <div className="scroll-smooth">
+
+
+    
+    <div className="scroll-smooth overflow-x-hidden">
       <Hero />
      
       <section id="flagshiplocation" className="scroll-mt-32">
@@ -100,7 +104,6 @@ export default function App() {
       <section id="event" className="scroll-mt-32">
         <EventPitchSection />
       </section>
-
     </div>
   );
 }

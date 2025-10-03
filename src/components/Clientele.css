@@ -30,7 +30,7 @@
 
 .clientele-card {
   flex: 1 1 30%; /* 3 per row, adapts better */
-  max-width: 35%;
+  max-width: 40%;
   box-sizing: border-box;
   background-color: rgba(255, 255, 255, 0.05);
   border-radius: 16px;

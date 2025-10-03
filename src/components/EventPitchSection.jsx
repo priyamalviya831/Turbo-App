@@ -2,7 +2,11 @@ import React from 'react';
 import './EventPitchSection.css';
 import { FaPhoneAlt, FaEnvelope, FaRegFileAlt, FaVideo, FaMicrophoneAlt, FaPaintBrush, FaFilm } from 'react-icons/fa';
 import { MdOutlineVideoSettings } from 'react-icons/md';
-
+import script from "../assets/script.png"
+import direction from "../assets/direction.png"
+import voice from "../assets/voiceover.png"
+import graphic from "../assets/Graphics.png"
+import post from "../assets/Post.png"
 const EventPitchSection = () => {
   return (
     <div className="event-pitch-section">
@@ -17,16 +21,41 @@ const EventPitchSection = () => {
 
       <div className="services-grid">
         <div className="service-box">
-          <FaRegFileAlt className="icon" />
+          {/*  */}
+          <img src={script} alt="Script" className="service-img" />
+          {/*  */}
+          {/* <FaRegFileAlt className="icon" /> */}
           <p>Script</p>
         </div>
         <div className="service-box">
-          <MdOutlineVideoSettings className="icon" />
+          {/*  */}
+           <img src={direction} alt="Direction" className="service-img" />
+          {/*  */}
+          {/* <MdOutlineVideoSettings className="icon" /> */}
           <p>Direction</p>
         </div>
         <div className="service-box">
-          <FaMicrophoneAlt className="icon" />
+          {/*  */}
+          <img src={voice} alt="Voiceover" className="service-img" />
+          {/*  */}
+          {/* <FaMicrophoneAlt className="icon" /> */}
           <p>Voiceover</p>
+        </div>
+      </div>
+       <div className="services-grid">
+        <div className="service-box">
+          {/* <FaPaintBrush className="icon" /> */}
+          {/*  */}
+          <img src={graphic} alt="Graphics" className="service-img" />
+          {/*  */}
+          <p>Graphics</p>
+        </div>
+        <div className="service-box">
+          {/* <FaFilm className="icon" /> */}
+{/*  */}
+<img src={post} alt="Post Production" className="service-img" />
+{/*  */}
+          <p>Post Production</p>
         </div>
       </div>
 
@@ -52,20 +81,11 @@ const EventPitchSection = () => {
       </div>
 
       <div className="button-group">
-        <button className="primary-button">Book Ad Slot</button>
-        <button className="outline-button">Request Video talk</button>
+        <button  onClick={() => window.open("https://calendly.com/turbooads/30min", "_blank")}  className="primary-button ml-10">Book Ad Slot</button>
+        <button  onClick={() => window.open("https://calendly.com/turbooads/30min", "_blank")}  className="outline-button  ml-7" >Request Video talk</button>
       </div>
 
-      <div className="services-grid">
-        <div className="service-box">
-          <FaPaintBrush className="icon" />
-          <p>Graphics</p>
-        </div>
-        <div className="service-box">
-          <FaFilm className="icon" />
-          <p>Post Production</p>
-        </div>
-      </div>
+     
     </div>
   );
 };
