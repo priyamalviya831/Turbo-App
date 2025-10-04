@@ -81,8 +81,8 @@ const EventPitchSection = () => {
       </div>
 
       <div className="button-group">
-        <button className="primary-button ml-10">Book Ad Slot</button>
-        <button className="outline-button  ml-7" >Request Video talk</button>
+        <button onClick={() => window.open("https://calendly.com/turbooads/30min", "_blank")} className="primary-button ml-10">Book Ad Slot</button>
+        <button onClick={() => window.open("https://calendly.com/turbooads/30min", "_blank")} className="outline-button  ml-7" >Request Video talk</button>
       </div>
 
      

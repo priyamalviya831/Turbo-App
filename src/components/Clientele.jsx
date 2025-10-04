@@ -8,15 +8,15 @@ import institution from "../assets/INSTITUTIONS.png"
 
 // Use imported images if available or use emoji/svg/icon fonts
 const clients = [
-  {
-    name:"",
+  // {
+  //   name:"",
     // img: hdfcImage, // Replace with local path if needed
-  },
-  {
-    name: "STAR HEALTH",
-    img: starImage, // Replace with local path
+  // },
+  // {
+    // name: "STAR HEALTH",
+    // img: starImage, // Replace with local path
     // icon: "🏫",
-  },
+  // },
   {
     name: "REAL ESTATE",
     // icon: "🏘️",
